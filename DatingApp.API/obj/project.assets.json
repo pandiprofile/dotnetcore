@@ -6458,11 +6458,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\workout\\dotnetcore\\udemy\\DatingApp.API\\DatingApp.API.csproj",
+      "projectUniqueName": "C:\\workout\\dotnetcore\\udemy\\datingapp.api\\DatingApp.API.csproj",
       "projectName": "DatingApp.API",
-      "projectPath": "c:\\workout\\dotnetcore\\udemy\\DatingApp.API\\DatingApp.API.csproj",
+      "projectPath": "C:\\workout\\dotnetcore\\udemy\\datingapp.api\\DatingApp.API.csproj",
       "packagesPath": "C:\\Users\\sppro\\.nuget\\packages\\",
-      "outputPath": "c:\\workout\\dotnetcore\\udemy\\DatingApp.API\\obj\\",
+      "outputPath": "C:\\workout\\dotnetcore\\udemy\\datingapp.api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

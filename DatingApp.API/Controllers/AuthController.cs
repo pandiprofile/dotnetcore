@@ -40,8 +40,7 @@ namespace DatingApp.API.Controllers
             //var userToCreate = _mapper.Map<User>(userForRegisterDto);
             User objuser = new User ();
             objuser.Username = userForRegisterDto.Username;
-            
-
+ 
             var createdUser = await _repo.Register(objuser, userForRegisterDto.Password);
 
             //var userToReturn = _mapper.Map<UserForDetailedDto>(createdUser);
@@ -57,6 +56,7 @@ namespace DatingApp.API.Controllers
         [HttpPost("login")]
         public async Task<IActionResult> Login(UserForLoginDto userForLoginDto)
         { 
+            // throw new Exception("My Custom Exception");
             var userFromRepo = await _repo.Login(userForLoginDto.Username
                 .ToLower(), userForLoginDto.Password);
 
